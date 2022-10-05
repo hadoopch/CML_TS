@@ -38,6 +38,6 @@
 #
 # ###########################################################################
 
-!pip3   install --proxy http://proxy-k1.home:8888-r requirements.txt
-!pip3   install --proxy http://proxy-k1.home:8888 prophet==1.0.1
-!pip3   install --proxy http://proxy-k1.home:8888 -e .
+!pip3   install --proxy http://proxy-k1.home:8888 --trusted-host pypi.org --trusted-host files.pythonhosted.org-r requirements.txt
+!pip3   install --proxy http://proxy-k1.home:8888 --trusted-host pypi.org --trusted-host files.pythonhosted.org prophet==1.0.1
+!pip3   install --proxy http://proxy-k1.home:8888 --trusted-host pypi.org --trusted-host files.pythonhosted.org -e .
