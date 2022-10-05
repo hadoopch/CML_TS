@@ -38,6 +38,6 @@
 #
 # ###########################################################################
 
-!pip3  install -r requirements.txt
-!pip3 install prophet==1.0.1
-!pip3 install -e .
+!pip3  --proxy http://proxy-k1.home:8888 install -r requirements.txt
+!pip3  --proxy http://proxy-k1.home:8888 install prophet==1.0.1
+!pip3  --proxy http://proxy-k1.home:8888 install -e .
